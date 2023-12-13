@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Geologica&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="/CSS/style.css">
+    <script src="https://kit.fontawesome.com/e8dec6c0fd.js" crossorigin="anonymous"></script>
+    <title>Chair Simple</title>
+</head>
+<body>
+        <div class="navigation">
+            <nav>
+                <a href="index.html"><img src="Images/Cs.png" class="logo"></a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                     <li><a href="#featured">Featured</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+
+        <div class="hero">
+            <div class="header-text">
+                <h1>Chair Simple</h1>
+                <p>Chairs Simply made for you, crafted and designed in Canada📍</p>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                 </div>
+        </div>
+        
+     <!----------Featured-->
+    <div id="featured">
+        <div class="featured-text">
+            <h1>Featured</h1>
+            <h2>One of the best Designs so far "Serenity Snow White"</h2>
+            <p class="featuredp">The Serenity Snow White Accent Chair is a timeless embodiment
+                 of sophistication and simplicity. 
+                 Immerse yourself in the purity of its design, 
+                 where every curve and line is carefully curated to create a harmonious 
+                 balance between style and comfort.</p>
+        </div>
+       
+        <div class="featured-image">
+        <img src="images/feat-chair-2.jpg" alt="Image of Chair">
+        </div>
+    </div>
+
+     <!----------Gallery-->
+     <div id="gallery">
+        <div class="gallery-text">Gallery</div>
+        <div class="gallery-images">
+            <img src="images/gallery-chair-1.webp" alt="image of chair">
+            <img src="images/gallery-chair-2.webp" alt="image of chair">
+            <img src="images/gallery-chair-3.webp" alt="image of chair">
+            <img src="images/gallery-chair-4.webp" alt="image of chair">
+            <img src="images/gallery-chair-5.webp" alt="image of chair">
+            <img src="images/gallery-chair-6.webp" alt="image of chair">
+            <img src="images/gallery-chair-7.webp" alt="image of chair">
+            <img src="images/gallery-chair-8.webp" alt="image of chair">
+        </div>
+     </div>
+     </div>
+
+   
+     <!----------About Me-->
+
+     <div id="about">
+     <div class="about-text">
+         <h1>About Us</h1>
+            <h2>A dedicated Team of in house designers
+            based in Ontario, Canada 📍</h2>
+            <p>Chairs Simple. Crafting Comfort, Enhancing Spaces
+                At Chairs Simple, we take pride in creating seating solutions that seamlessly blend simplicity,
+                functionality, and timeless design. Nestled in the heart of Canada, our company is dedicated to
+                providing high-quality chairs that enrich the aesthetics and comfort of your living and working spaces.
+            </p>
+     </div>
+     <div class="about-image">
+        <img src="images/about-team.jpeg" alt="">
+    </div>
+     </div>
+
+     <!---------Contact--------->
+
+
+     <div id="contact">
+        <div class="contact-text">
+            <h1>Contact Us</h1>
+            <p class="contactp"><i class="fa-solid fa-envelope"></i>ChairsSimple@info.com</p>
+        </div>
+     </div>
+    <div class="footer">
+        <div class="copyright">
+            <h4>&copy;  ChairsSimple 2023 </h4>
+
+        </div>
+        
+    </div>
+
+
+    <script>
+     var sidemenu = document.getElementById("sidemenu");
+
+     function openmenu(){
+    sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+    sidemenu.style.right = "-200px";
+    }
+    </script>
+    
+</body>
+</html>
